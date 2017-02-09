@@ -1,0 +1,3 @@
+RPi.GPIO==0.6.3
+sn3218==1.2.6
+automationhat==0.0.2

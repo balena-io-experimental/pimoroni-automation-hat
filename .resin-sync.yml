@@ -1,0 +1,12 @@
+local_resinos:
+  app-name: automation-hat
+  build-triggers:
+    - Dockerfile: bc808f7597edee274123179fcdee86d23a5f3f13d651950888f1cc05517353a7
+    - requirements.txt: 35749f837dc6c85abb1882b6f8dca069909f471fcb65b5375dad56f2e24475f9
+  environment:
+    - RESIN_vars=There Are None for resinOS Unmanaged
+destination: /usr/src/app
+ignore:
+  - .git
+  - node_modules/
+  - Dockerfile
